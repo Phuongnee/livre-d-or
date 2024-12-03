@@ -1,0 +1,118 @@
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    background-color: #ccd5ae;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #e9edc9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    max-width: 750px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    max-width: 100px;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: #f4a261;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+form button:hover {
+    background-color: #2a9d8f;
+}
+
+.message {
+    background-color: #fefae0;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: #f4a261;
+}
+
+.pagination a:hover {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+.success {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+
+.error {
+    color: #e76f51;
+    text-align: center;
+    font-weight: bold;
+}
+
+.delete-link {
+    color: #e76f51;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.delete-link:hover {
+    text-decoration: underline;
+    color: #2a9d8f;
+}
